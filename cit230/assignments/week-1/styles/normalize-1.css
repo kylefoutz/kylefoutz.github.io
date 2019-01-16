@@ -1,0 +1,32 @@
+body { background-color: white;
+        text-align: center;
+}
+
+body h1{
+        background-color: rgb(147, 151, 153);
+        color:white ;
+        height: 80px;
+        width: 100%;
+}
+
+h1{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body img {
+    width:300px;
+    height:380px;
+    border-radius:50% 50% 15% 15%;
+    }
+footer p { 
+    background-color: rgb(147, 151, 153);
+    color:white ;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

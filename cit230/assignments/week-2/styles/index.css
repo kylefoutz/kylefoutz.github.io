@@ -1,0 +1,42 @@
+body { 
+    font-size: 16px; 
+    line-height: 32px;
+    font-family: sans-serif;
+    color:  black;
+}
+
+h1 {
+    font-size: 30px ;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 1200px;
+}
+
+header, footer, footer a {
+    text-align: center;
+    background-color: #1d7aa5;
+    color: white;
+}
+
+header img {
+    /*Rotate image*/
+    width: 167px;
+    height: auto;
+    float: right;
+    border-radius: 15%; 
+    
+}
+
+footer {
+    font-size: 15px;
+}
