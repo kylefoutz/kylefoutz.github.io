@@ -29,8 +29,8 @@ header, footer, footer a {
 }
 
 header img {
-    /*Rotate image*/
-    width: 167px;
+    transform: rotate(90deg);
+    width: 15em;
     height: auto;
     float: right;
     border-radius: 15%; 
