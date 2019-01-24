@@ -5,3 +5,29 @@
     background-color: #eee;
     line-height: 1.5em;
 }
+main img {
+    width=300px;
+    height=200px;
+}
+
+.marquee {
+    height: 25px;
+    position: relative;
+    width: 100%;
+    animation: marquee 17s linear infinite;
+}
+
+footer span {
+    float: right;
+}
+@keyframes marquee {
+    0% {left: 0;right:0;}
+    100% { left: -100%; right: -100%;}
+}
+
+
+.smaller {
+    text-align: center;
+    font-size: 13px;
+
+}
