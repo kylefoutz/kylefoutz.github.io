@@ -6,12 +6,12 @@
     line-height: 1.5em;
 }
 main img {
-    width=300px;
-    height=200px;
+    width: 300px;
+    height: 200px;
 }
 
 .marquee {
-    height: 25px;
+    height: 25px ;
     position: relative;
     width: 100%;
     animation: marquee 17s linear infinite;
