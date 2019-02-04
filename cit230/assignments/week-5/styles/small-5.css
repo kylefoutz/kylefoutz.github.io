@@ -32,11 +32,3 @@ ul {
 li {
     padding: 7px;
 }
-article{
-    display: flex;
-    flex-direction: column;
-    padding-left: 0;
-}
-article p{
-    border: 2px;
-}
