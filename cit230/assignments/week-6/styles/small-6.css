@@ -6,6 +6,8 @@ body{
 
 
 }
+header{
+}
 
 .logo {
     height: 150px;
@@ -124,3 +126,8 @@ article img{
     border: double 4px #112f41;
 
  }
+
+nav ul.hide{
+    display: none;
+
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Mouse+Memoirs" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lily+Script+One" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize-6.css">
+    <link rel="stylesheet" href="styles/small-6.css">
+    <link rel="stylesheet" href="styles/large-6.css">
+    <title>Preston</title>
+</head>
+
+<body>
+    <header>
+        <div class="heading">
+        <div class="headingwords">
+            <h1>The Happiest Weather Around</h1>
+            <h3 class="moto">Compare Your Weather To The Happiest Place On Earth</h3>
+        </div>
+            <img class="logo" src="images/happiestForecast.png" alt="Happy Cloud">
+        </div>
+        <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="navigation" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="preston-5.html">Preston</a></li>
+                <li><a href="#">Soda Spring</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Preston</h2>
+        <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique laboriosam beatae consequuntur necessitatibus? Est explicabo commodi odio, repellat delectus voluptatibus velit sunt, tempora soluta, porro autem cumque perspiciatis harum aspernatur.</p>
+        <img src="images/preston.jpg" alt="rural">
+    </article>
+        <h2>5-Day Forescast</h2>
+        <table>
+            <tr>
+                <th>Fri</th>
+                <th>Sat</th>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+            </tr>
+            <tr>
+                <td>50&deg;</td>
+                <td>60&deg;</td>
+                <td>57&deg;</td>
+                <td>65&deg;</td>
+                <td>51&deg;</td>
+            </tr>
+        </table>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, eaque ea sint quia sequi officiis fugit odit! Voluptates sequi odit nostrum excepturi sapiente, quisquam qui minus ipsa. Illo, doloribus facilis.</p>
+            <img src="images/franklinsmall.jpg" alt="Franklin" srcset="
+                    images/franklinsmall.jpg 600w,
+                    images/franklinlarge.jpg 1200w">
+        </article>
+    </main>
+    <footer>
+        <p class="smaller">&copy; <span id="copyrightyear"></span> &#124; <span id="thedate"></span> &#124; Kyle A. Foutz &#124; <a href="../week-2/index.html">CIT-230 Assingments</a>
+            &#124; </p>
+    </footer>
+<script src="script/currentdate.js"></script>
+<script src="script/hamburger.js"></script>
+</body>
+
+</html>
