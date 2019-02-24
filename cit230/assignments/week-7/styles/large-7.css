@@ -1,0 +1,65 @@
+
+@media only screen and (min-width: 801px){
+
+button{
+    display: none;
+}
+nav ul.hide{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    padding-left: 0;
+    justify-content: space-evenly;
+}
+
+article img{
+    width: auto;
+     height: 320px;
+     border-radius: 10% 10% 5% 5%;
+ }
+
+ section img{
+    display: inline;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10% 10% 5% 5%;
+ }
+
+ .logo {
+    height: 200px;
+    width: 240px;
+    padding: 5px;
+
+}
+
+ h1 {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 80px;
+    text-emphasis: bold;
+
+}
+
+.moto {
+    font-family: 'Lily Script One', cursive;
+    font-size: 25px;
+    text-emphasis: bold;
+}
+
+.gallerycontainer{
+    display: grid;
+    grid-template-columns: .1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.gallerimg{
+    max-width: 90%;
+    max-height: 85%;
+    align-content: center;
+}
+
+ 
+}
