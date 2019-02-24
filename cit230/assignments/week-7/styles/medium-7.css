@@ -2,12 +2,11 @@
 
     .gallerycontainer{
         display: grid;
-        grid-template-columns: .1fr 1fr;
-        grid-template-rows: auto;
+        grid-template-columns: .9fr .9fr;
+        grid-template-rows: .9fr .9fr .9fr;
     }
     
     .gallerimg{
-        max-width: 90%;
         max-height: 85%;
         align-content: center;
     }

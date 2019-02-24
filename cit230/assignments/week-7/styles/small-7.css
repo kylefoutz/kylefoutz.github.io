@@ -198,12 +198,11 @@ nav ul.hide{
 
 .gallerycontainer{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: .75fr;
+    grid-template-rows: .7fr .7fr .7fr .7fr .7fr .7fr;
 }
 
 .gallerimg{
+    max-height: 90%;
     align-content: center;
-    width: 500px;
-    height: auto;
 }
