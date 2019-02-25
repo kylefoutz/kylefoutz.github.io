@@ -1,4 +1,3 @@
-
 @media only screen and (min-width: 801px){
 
 button{
@@ -20,6 +19,12 @@ article img{
     width: auto;
      height: 320px;
      border-radius: 10% 10% 5% 5%;
+ }
+
+ .weathergrid{
+    padding-left: 10px;
+    padding-right: 10px;
+
  }
 
  section img{
@@ -53,6 +58,7 @@ article img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-gap: 25px;
 }
 
 .gallerimg{
