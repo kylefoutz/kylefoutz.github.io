@@ -98,16 +98,37 @@ nav ul.hide{
 
 label{
     display: inline-block;
+    text-align: left;
     min-width: 150px;
+    padding-right: 5%;
+    font-size: 15px;
+    text-emphasis: bold;
+    color: #112f41;
+}
+
+input{ 
+    display: inline-block;
+    text-align: left;
+    margin: 25px;
+}
+
+select{ 
+    display: inline-block;
+    text-align: left;
+    margin: 25px;
+
+}
+
+#dangerLevel{
+    margin-right: 0;
 }
 
 #comments{
-    width: 175px;
-    height: 125px;
+    text-align: justify;
 }
-
-main div{
-    align-content: center;
+.boxinfo{
+    text-align: center;
+    width: 100%;
 }
 
 @media only screen and (min-width: 600px){
@@ -148,9 +169,8 @@ main div{
     }
 
 
-    #comments{
-        width: 250px;
-        height: 200px;
+    label{
+        font-size: 20px;
     }
     
 }
