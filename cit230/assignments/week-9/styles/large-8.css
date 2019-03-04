@@ -1,0 +1,71 @@
+@media only screen and (min-width: 900px){
+
+button{
+    display: none;
+}
+nav ul.hide{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    padding-left: 0;
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: 200px;
+    width: 240px;
+    padding: 5px;
+
+}
+
+h1 {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 80px;
+    text-emphasis: bold;
+
+}
+
+.moto {
+    font-family: 'Lily Script One', cursive;
+    font-size: 25px;
+    text-emphasis: bold;
+}
+
+
+article img{
+    width: auto;
+     height: 320px;
+     border-radius: 10% 10% 5% 5%;
+ }
+
+ .weathergrid{
+    padding-left: 10px;
+    padding-right: 10px;
+
+ }
+
+ section img{
+    display: inline;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10% 10% 5% 5%;
+ }
+
+
+.gallerycontainer{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.gallerimg{
+    max-height: 100%;
+    align-content: center;
+}
+
+ 
+}
