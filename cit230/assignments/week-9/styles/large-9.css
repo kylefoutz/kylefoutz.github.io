@@ -57,14 +57,17 @@ article img{
 
 
 .gallerycontainer{
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 25px;
 }
 
-.gallerimg{
-    max-height: 100%;
+.galleryimg{
+    max-width: 100%;
     align-content: center;
+ 
+
 }
 
  

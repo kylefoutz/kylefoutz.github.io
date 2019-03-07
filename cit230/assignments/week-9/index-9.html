@@ -8,10 +8,11 @@
     <link href="https://fonts.googleapis.com/css?family=Mouse+Memoirs" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lily+Script+One" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize-9.css">
-    <link rel="stylesheet" href="styles/small-9.css">
-    <link rel="stylesheet" href="styles/medium-9.css">
-    <link rel="stylesheet" href="styles/large-9.css">
-    <title>Gallery</title>
+    <link rel="stylesheet" href="styles/index-9.css">
+    <!--<link rel="stylesheet" href="styles/small-8.css">
+    <link rel="stylesheet" href="styles/medium-8.css">
+    <link rel="stylesheet" href="styles/large-8.css">-->
+    <title>Home</title>
 </head>
 
 <body>
@@ -26,26 +27,43 @@
         <nav>
         <button onclick="toggleMenu()">&#9776;</button>
             <ul id="navigation" class="hide">
-                <li><a href="index-9.html">Home</a></li>
+                <li class="active"><a href="index-9.html">Home</a></li>
                 <li><a href="preston-9.html">Preston</a></li>
                 <li><a href="#">Soda Spring</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="../week-8/stormcenter.html">Storm Center</a></li>
-                <li class="active"><a href="gallery-9.html">Gallery</a></li>
+                <li><a href="gallery-9.html">Gallery</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Gallery</h1>
-    <div class="gallerycontainer">
-        <img class="galleryimg" src="images/landscape-01.jpg" alt="image1">
-        <img class="galleryimg" src="images/landscape-02.jpg" alt="image2">
-        <img class="galleryimg" src="images/landscape-03.jpg" alt="image3">
-        <img class="galleryimg" src="images/landscape-04.jpg" alt="image4">
-        <img class="galleryimg" src="images/landscape-05.jpg" alt="image5">
-        <img class="galleryimg" src="images/preston.jpg" alt="image6">  
-    </div>
-    
+        <h1>Home</h1>
+        <div id="homecity">
+        <div class="pres">
+            <h2><a href="preston-9.html">Preston</a></h2>
+            <h3><span id="pmoto"></span></h3>
+            <p id="pfounded"> Year Founded: </p>  
+            <p id="ppop">Population: </p>
+            <p id="prain">Annual Rain Fall: </p>
+        </div>
+        <div class="soda">
+            <h2><a href="#">Soda Spring</a></h2>
+            <h3><span id="smoto"></span></h3>
+            <p id="sfounded"> Year Founded: </p>  
+            <p id="spop">Population: </p>
+            <p id="srain">Annual Rain Fall: </p>
+        </div>
+        <div class="fish">
+            <h2><a href="#">Fish Haven</a></h2>
+            <h3><span id="fmoto"></span></h3>
+            <p id="ffounded"> Year Founded: </p>  
+            <p id="fpop">Population: </p>
+            <p id="frain">Annual Rain Fall: </p>
+        </div>
+        <img class="pimg" src="images/landscape-01.jpg" alt="Preston">
+        <img class="simg" src="images/landscape-02.jpg" alt="Soda Springs">
+        <img class="fimg" src="images/landscape-03.jpg" alt="Fish Haven">
+        </div>
     </main>
     <footer>
         <p class="smaller">&copy; <span id="copyrightyear"></span> &#124; <span id="thedate"></span> &#124; Kyle A. Foutz &#124; <a href="../week-2/index.html">CIT-230 Assingments</a>
@@ -53,6 +71,7 @@
     </footer>
 <script src="script/currentdate.js"></script>
 <script src="script/hamburger.js"></script>
+<script src="script/index.js"></script>
 </body>
 
 </html>
