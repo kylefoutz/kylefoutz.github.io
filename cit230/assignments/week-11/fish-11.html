@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/medium-11.css">
     <link rel="stylesheet" href="styles/large-11.css">
     <link rel="icon" type="images/png" href="images/favicon.png">
-    <title>Preston</title>
+    <title>Fish Haven</title>
 </head>
 
 <body>
@@ -28,48 +28,48 @@
         <button onclick="toggleMenu()">&#9776;</button>
             <ul id="navigation" class="hide">
                 <li><a href="index-11.html">Home</a></li>
-                <li class="active"><a href="preston-11.html">Preston</a></li>
+                <li><a href="preston-11.html">Preston</a></li>
                 <li><a href="soda-11.html">Soda Springs</a></li>
-                <li><a href="fish-11.html">Fish Haven</a></li>
+                <li class="active"><a href="fish-11.html">Fish Haven</a></li>
                 <li><a href="../week-8/stormcenter.html">Storm Center</a></li>
                 <li><a href="gallery-11.html">Gallery</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Preston</h1>
+        <h1>Fish Haven</h1>
         <section class="weathergrid">
             <h2 class="weatherheader">Weather Forecast</h2>
             <p class="city1">Preston</p>
             <p class="city2">Disneyland</p>
             <p class="temper">Temperature</p>
-            <p class="c1temp"><span id="temperatureP"></span></p>
-            <p class="c2temp"><span id="tempD"></span></p>
+            <p class="c1temp"><span id="temperatureF"></span></p>
+            <p class="c2temp"><span id="tempDi"></span></p>
             <p class="windy">Wind Speed</p>
-            <p class="c1wind"><span id="windP"></span></p>
-            <p class="c2wind"><span id="windD"></span></p>
+            <p class="c1wind"><span id="windF"></span></p>
+            <p class="c2wind"><span id="windDi"></span></p>
             <p class="windtemp">Wind Chill</p>
-            <p class="c1windtemp"><span id="windchillP"></span></p>
-            <p class="c2windtemp"><span id="windchillD"></span></p>
-        <img src="images/preston.jpg" alt="rural" class="c1img">
+            <p class="c1windtemp"><span id="windchillF"></span></p>
+            <p class="c2windtemp"><span id="windchillDi"></span></p>
+        <img src="images/landscape-03.jpg" alt="rural" class="c1img">
     </section>
         <h2>5-Day Forescast</h2>
-        <table>
-            <tr>
-                <th><span id="day1Name"></span></th>
-                <th><span id="day2Name"></span></th>
-                <th><span id="day3Name"></span></th>
-                <th><span id="day4Name"></span></th>
-                <th><span id="day5Name" ></span></th>
-            </tr>
-            <tr>
-                <td><span id="day1TempP"></span>&deg; F</td>
-                <td><span id="day2TempP"></span>&deg; F</td>
-                <td><span id="day3TempP"></span>&deg; F</td>
-                <td><span id="day4TempP"></span>&deg; F</td>
-                <td><span id="day5TempP"></span>&deg; F</td>
-            </tr>
-        </table>
+    <table>
+        <tr>
+            <th><span id="day1Name"></span></th>
+            <th><span id="day2Name"></span></th>
+            <th><span id="day3Name"></span></th>
+            <th><span id="day4Name"></span></th>
+            <th><span id="day5Name" ></span></th>
+        </tr>
+        <tr>
+            <td><span id="day1TempF"></span>&deg; F</td>
+            <td><span id="day2TempF"></span>&deg; F</td>
+            <td><span id="day3TempF"></span>&deg; F</td>
+            <td><span id="day4TempF"></span>&deg; F</td>
+            <td><span id="day5TempF"></span>&deg; F</td>
+        </tr>
+    </table>
         <article>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, eaque ea sint quia sequi officiis fugit odit! Voluptates sequi odit nostrum excepturi sapiente, quisquam qui minus ipsa. Illo, doloribus facilis.</p>
             <img src="images/franklinsmall.jpg" alt="Franklin" srcset="
@@ -84,8 +84,8 @@
 <script src="script/currentdate.js"></script>
 <script src="script/hamburger.js"></script>
 <!--<script src="script/windchill.js"></script>-->
-<script src="script/weatherapiprest.js"></script>
-<script src="script/weatherapiweekpres.js"></script>
+<script src="script/weatherapifish.js"></script>
+<script src="script/weatherapiweekfish.js"></script>
 
 </body>
 

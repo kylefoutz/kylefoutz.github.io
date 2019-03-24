@@ -1,4 +1,4 @@
- var pWeatherApi = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=ab81f4bbe5f7e403385ffa4637cd68f5&untis=imperial";
+ var pWeatherApi = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=ab81f4bbe5f7e403385ffa4637cd68f5&units=imperial";
  
  var requestP = new XMLHttpRequest();
  requestP.open('GET', pWeatherApi);
@@ -26,7 +26,7 @@
 
 
  }
- var disWeatherApi = "https://api.openweathermap.org/data/2.5/weather?id=5323810&appid=ab81f4bbe5f7e403385ffa4637cd68f5&untis=imperial";
+ var disWeatherApi = "https://api.openweathermap.org/data/2.5/weather?id=5323810&appid=ab81f4bbe5f7e403385ffa4637cd68f5&units=imperial";
  
  var requestDis = new XMLHttpRequest();
  requestDis.open('GET', disWeatherApi);
