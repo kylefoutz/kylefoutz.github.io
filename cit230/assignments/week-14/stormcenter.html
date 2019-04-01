@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Mouse+Memoirs" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lily+Script+One" rel="stylesheet">
+    <link rel="stylesheet" href="styles/stormcenter.css">
+    <!--<link rel="stylesheet" href="styles/normalize-8.css">
+    <link rel="stylesheet" href="styles/small-8.css">
+    <link rel="stylesheet" href="styles/medium-8.css">
+    <link rel="stylesheet" href="styles/large-8.css">-->
+    <link rel="icon" type="images/png" href="images/favicon.png">
+    <title>Storm Center</title>
+</head>
+
+<body>
+    <header>
+        <div class="heading">
+        <div class="headingwords">
+            <h1>The Happiest Weather Around</h1>
+            <h3 class="moto">Compare Your Weather To The Happiest Place On Earth</h3>
+        </div>
+            <img class="logo" src="images/happiestForecast.png" alt="Happy Cloud">
+        </div>
+        <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="navigation" class="hide">
+                <li><a href="../week-11/index-11.html">Home</a></li>
+                <li><a href="../week-11/preston-11.html">Preston</a></li>
+                <li><a href="../week-11/soda-11.html">Soda Spring</a></li>
+                <li><a href="../week-11/fish-11.html">Fish Haven</a></li>
+                <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="../week-11/gallery-11.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="boxinfo">
+        <form action="thanks.html">
+            <div>
+                <label for="fullName">Full Name: </label>
+                <input type="text" id="fullName" name="fullName" pattern="[A-Za-z]{}" required>
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="user@domain.com">
+            </div>
+            <div>
+                <label for="phoneNumber">Phone Number: </label>
+                <input type="tel" name="phoneNumber" id="phoneNumber" required>
+            </div>
+            <div>
+                <label for="zip">Zip Code: </label>
+                <input type="number" name="zip" id="zip" required>
+            </div>
+            <div>
+                <label for="stormDate">Storm Date: </label>
+                <input type="date" name="stormDate" id="stormDate">
+            </div>
+            <div>
+                <label for="stormType">What type of storm:</label>
+                <input type="list" name="stormType" id="stormType" list="storms">
+                <datalist id="storms">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist>
+            </div>
+            <div>
+                <label for="stormSeverity">Storm Strength</label>
+                <input type="range" name="stormSeverity" id="stormSeverity" min="0" max="10" step="1" oninput="severityChange(this.value)" onchange="severityChange(this.value)">
+                <span id="stormRange">5</span>
+            </div>
+            <div>
+                <label for="stormRegion">Storm Region</label>
+                <select name="stormRegion" id="stormRegion">
+                    <option value="preston">Preston</option>
+                    <option value="sodaSpring">Soda Spring</option>
+                    <option value="fishHaven">Fish Haven</option>
+                </select>
+            </div>
+            <div>
+                <label for="dangerLevel">Danger Level</label>
+                <input type="radio" name="dangerLevel" id="dangerLevel" value="yes"> Yes
+                <input type="radio" name="dangerLevel" id="dangerLevel" value="maybe"> Maybe
+                <input type="radio" name="dangerLevel" id="dangerLevel" value="no">No
+            </div>
+            <div>
+                <label for="comments">Comments</label>
+                <textarea row="10" cols="30" name="comments" id="comments"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p class="smaller">&copy; <span id="copyrightyear"></span> &#124; <span id="thedate"></span> &#124; Kyle A. Foutz &#124; <a href="../week-2/index.html">CIT-230 Assingments</a>
+            &#124; </p>
+    </footer>
+<script src="script/currentdate.js"></script>
+<script src="script/hamburger.js"></script>
+<script src="script/windchill.js"></script>
+<script src="script/stormcenter.js"></script>
+</body>
+
+</html>

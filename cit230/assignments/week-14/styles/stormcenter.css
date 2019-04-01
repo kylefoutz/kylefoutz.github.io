@@ -1,0 +1,176 @@
+body{
+    color: #112f41;
+    background-color: #0da6a8;
+
+
+}
+main h1{
+    text-align: center;
+}
+
+.logo {
+    height: 150px;
+    width: 190px;
+}
+
+
+h1 {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 50px;
+    text-emphasis: bold;
+
+}
+
+.moto {
+    font-family: 'Lily Script One', cursive;
+    font-size: 15px;
+    text-emphasis: bold;
+}
+.headingwords{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #112f4185;
+    color: white;
+    padding-bottom: 0;
+}
+
+nav{
+    background-color: #f2b134;
+    font-size: 1.5em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    padding-left: 0;
+    margin-top:0;
+    justify-content: space-evenly;
+}
+
+li {
+    padding: 7px;
+}
+
+a{
+    text-decoration: none;
+    color: #112f41;
+   
+}
+a:hover{
+    color: #ed553b;
+    border: double 4px #112f41;
+}
+.active{
+    color: #ed553b;
+    border: double 4px #112f41;
+}
+h2  {
+    text-align: center;
+    text-emphasis: bold;
+    color: #ed553b;
+    font-size: 1.5em;
+}
+
+footer{
+    text-align: center;
+    background-color: #ed553b;
+    margin:0;
+    padding: 5px;
+}
+footer a:hover{
+   color: #f2b134;
+   border: double 4px #112f41;
+
+}
+
+nav ul.hide{
+   display: none;
+
+}
+
+label{
+    display: inline-block;
+    text-align: left;
+    min-width: 150px;
+    padding-right: 5%;
+    font-size: 15px;
+    text-emphasis: bold;
+    color: #112f41;
+}
+
+input{ 
+    display: inline-block;
+    text-align: left;
+    margin: 25px;
+}
+
+select{ 
+    display: inline-block;
+    text-align: left;
+    margin: 25px;
+
+}
+
+#dangerLevel{
+    margin-right: 0;
+}
+
+#comments{
+    text-align: justify;
+}
+.boxinfo{
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px){
+
+    button{
+        display: none;
+    }
+    nav ul.hide{
+        display: flex;
+    }
+    
+    ul{
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        padding-left: 0;
+        justify-content: space-evenly;
+    }
+    
+    .logo {
+        height: 200px;
+        width: 240px;
+        padding: 5px;
+    
+    }
+    
+    h1 {
+        font-family: 'Mouse Memoirs', sans-serif;
+        font-size: 80px;
+        text-emphasis: bold;
+    
+    }
+    
+    .moto {
+        font-family: 'Lily Script One', cursive;
+        font-size: 25px;
+        text-emphasis: bold;
+    }
+
+
+    label{
+        font-size: 20px;
+    }
+    
+}
