@@ -8,11 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Mouse+Memoirs" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lily+Script+One" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize-11.css">
-    <link rel="stylesheet" href="styles/small-11.css">
-    <link rel="stylesheet" href="styles/medium-11.css">
-    <link rel="stylesheet" href="styles/large-11.css">
+    <link rel="stylesheet" href="styles/index-11.css">
     <link rel="icon" type="images/png" href="images/favicon.png">
-    <title>Gallery</title>
+    <title>Contact Us</title>
 </head>
 
 <body>
@@ -24,29 +22,40 @@
         </div>
             <img class="logo" src="images/logo.png" alt="Happy Cloud">
         </div>
-       <nav>
+        <nav>
         <button onclick="toggleMenu()">&#9776;</button>
             <ul id="navigation" class="hide">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="reservation.html">Reservations</a></li>
                 <li><a href="temple.html">Temples</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li class="active"><a href="tgallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="tgallery.html">Gallery</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Gallery</h1>
-        <div class="gallerycontainer">
-            <img class="galleryimg" src="images/landscape-01.jpg" alt="image1">
-            <img class="galleryimg" src="images/landscape-02.jpg" alt="image2">
-            <img class="galleryimg" src="images/landscape-03.jpg" alt="image3">
-            <img class="galleryimg" src="images/landscape-04.jpg" alt="image4">
-            <img class="galleryimg" src="images/landscape-05.jpg" alt="image5">
-            <img class="galleryimg" src="images/preston.jpg" alt="image6">  
-    </div>
-    
+        <h1>Home</h1>
+        <div id="conact">
+        <div class="info">
+            <h2><a href="preston-11.html">Reservations</a></h2>
+            <h3>Make a reservation to stay at a temple near you!</h3>
+            <p></p>
+        </div>
+        <div class="larglogo">
+            <h2><a href="#">Temples</a></h2>
+            <h3>Take a look at these breath taking temples.</h3>
+            <p></p>
+        </div>
+        <div class="googmap">
+            <h2><a href="#">Services</a></h2>
+            <h3>We have some of the best accomidation in the busniess</h3>
+            <p></p>
+        </div>
+        <img class="pimg" src="images/landscape-01.jpg" alt="Preston">
+        <img class="simg" src="images/landscape-02.jpg" alt="Soda Springs">
+        <img class="fimg" src="images/landscape-03.jpg" alt="Fish Haven">
+        </div>
     </main>
     <footer>
         <p class="smaller">&copy; <span id="copyrightyear"></span> &#124; <span id="thedate"></span> &#124; Kyle A. Foutz &#124; <a href="../week-2/index.html">CIT-230 Assingments</a>
@@ -54,6 +63,7 @@
     </footer>
 <script src="script/currentdate.js"></script>
 <script src="script/hamburger.js"></script>
+<script src="script/index.js"></script>
 </body>
 
 </html>

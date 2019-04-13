@@ -12,70 +12,97 @@
     <link rel="stylesheet" href="styles/medium-11.css">
     <link rel="stylesheet" href="styles/large-11.css">
     <link rel="icon" type="images/png" href="images/favicon.png">
-    <title>Preston</title>
+    <title>Temples</title>
 </head>
 
 <body>
     <header>
         <div class="heading">
         <div class="headingwords">
-            <h1>The Happiest Weather Around</h1>
-            <h3 class="moto">Compare Your Weather To The Happiest Place On Earth</h3>
+            <h1>Temple Inn and Suites</h1>
+            <h3 class="moto">Theres Always Room in Our Inn</h3>
         </div>
-            <img class="logo" src="images/happiestForecast.png" alt="Happy Cloud">
+            <img class="logo" src="images/logo.png" alt="Happy Cloud">
         </div>
-        <nav>
+       <nav>
         <button onclick="toggleMenu()">&#9776;</button>
             <ul id="navigation" class="hide">
-                <li><a href="index-11.html">Home</a></li>
-                <li class="active"><a href="preston-11.html">Preston</a></li>
-                <li><a href="soda-11.html">Soda Springs</a></li>
-                <li><a href="fish-11.html">Fish Haven</a></li>
-                <li><a href="stormcenter.html">Storm Center</a></li>
-                <li><a href="gallery-11.html">Gallery</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li class="active"><a href="temple.html">Temples</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="tgallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Preston</h1>
-        <section class="weathergrid">
-            <h2 class="weatherheader">Weather Forecast</h2>
-            <p class="city1">Preston</p>
-            <p class="city2">Disneyland</p>
-            <p class="temper">Temperature</p>
-            <p class="c1temp"><span id="temperatureP"></span></p>
-            <p class="c2temp"><span id="tempD"></span></p>
-            <p class="windy">Wind Speed</p>
-            <p class="c1wind"><span id="windP"></span></p>
-            <p class="c2wind"><span id="windD"></span></p>
-            <p class="windtemp">Wind Chill</p>
-            <p class="c1windtemp"><span id="windchillP"></span></p>
-            <p class="c2windtemp"><span id="windchillD"></span></p>
-        <img src="images/preston.jpg" alt="rural" class="c1img">
-    </section>
-        <h2>5-Day Forescast</h2>
-        <table>
-            <tr>
-                <th><span id="day1Name"></span></th>
-                <th><span id="day2Name"></span></th>
-                <th><span id="day3Name"></span></th>
-                <th><span id="day4Name"></span></th>
-                <th><span id="day5Name" ></span></th>
-            </tr>
-            <tr>
-                <td><span id="day1TempP"></span>&deg; F</td>
-                <td><span id="day2TempP"></span>&deg; F</td>
-                <td><span id="day3TempP"></span>&deg; F</td>
-                <td><span id="day4TempP"></span>&deg; F</td>
-                <td><span id="day5TempP"></span>&deg; F</td>
-            </tr>
-        </table>
-        <article>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, eaque ea sint quia sequi officiis fugit odit! Voluptates sequi odit nostrum excepturi sapiente, quisquam qui minus ipsa. Illo, doloribus facilis.</p>
-            <img src="images/franklinsmall.jpg" alt="Franklin" srcset="
-                    images/franklinsmall.jpg 600w,
-                    images/franklinlarge.jpg 1200w">
-        </article>
+        <h1>Temples</h1>
+        <div id="temps">
+        <div class="rex">
+            <h2>Rexburg, Idaho Temple</a></h2>
+            <h3>Make a reservation to stay at a temple near you!</h3>
+            <ul>
+                <li>Adress: 750 S. 2nd E. Rexburg, ID 83440-5404 United States</li>
+                <li>Telephone Number: 1-208-656-0880</li>
+                <li>Email: </li>
+                <li>Current Weather: <span id="rexw"></span></li>
+                <li>History: Announced December 12th, 2003; Groundbreaking took place on July 30th, 2005; Dedicated on February 10th, 2008</li>
+                <li>Services: Clothing rental available, No cafeteria, No patron housing, Distribution center nearby</li>
+                <li>Endowment Schedule: Every 45 mins. starting at 6:00 am till 7:30 pm</li>
+                <li>Closures: <span id="rexc"></span></li>
+            </ul>
+            <p></p>
+        </div>
+        <div class="salt">
+            <h2>Salt Lake City, Utah Temple</a></h2>
+            <h3>Take a look at these breath taking temples.</h3>
+            <ul>
+                <li>Adress: 50 W. North Temple St. Salt Lake City, UT 84150-9709 United States</li>
+                <li>Telephone Number: 1-801-240-2640</li>
+                <li>Email: </li>
+                <li>Current Weather: <span id="saltw"></span></li>
+                <li>History: Announced July 28th, 1847; Groundbreaking took place on February 14th, 1853; Dedicated on April 6th, 1893</li>
+                <li>Services: Clothing rental available, Cafeteria available, No patron housing available, Distribution center nearby</li>
+                <li>Endowment Schedule: Every hour starting at 6:00 am till 7:00 pm</li>
+                <li>Closures: <span id="saltc"></span></li>
+            </ul>
+            <p></p>
+        </div>
+        <div class="og">
+            <h2>Ogden, Utah Temple</a></h2>
+            <h3>We have some of the best accomidation in the busniess</h3>
+            <ul>
+                <li>Adress: 350 22nd St. Ogden, UT 84401-1487 United States</li>
+                <li>Telephone Number: 1-801-621-6880</li>
+                <li>Email: </li>
+                <li>Current Weather: <span id="ogw"></span></li>
+                <li>History: Announced August 24th, 1967; Groundbreaking took place on September 8th, 1969; Dedicated on January 18th, 1972; Rededicated on September 21st, 2014</li>
+                <li>Services: Clothing rental available, Cafeteria available, No patron housing available, Distribution center nearby</li>
+                <li>Endowment Schedule: Every 30 mins. strating at 7:00 am till 8:00 pm</li>
+                <li>Closures: <span id="ogc"></span></li>
+            </ul>
+            <p></p>
+        </div>
+        <div class="georg">
+            <h2>St. George, Utah Temple</a></h2>
+            <h3>We have some of the best accomidation in the busniess</h3>
+            <ul>
+                <li>Adress: 250 E. 400 S. St. George, UT 84770-3699 United States</li>
+                <li>Telephone Number: 1-435-673-3533</li>
+                <li>Email: </li>
+                <li>Current Weather: <span id="georgw"></span></li>
+                <li>History: Announced November 9th, 1871; Groundbreaking took place on November 9th, 1871; Dedicated on April 6th, 1877; Rededicated on November 11th, 1975</li>
+                <li>Services: Clothing rental available, Cafeteria available, Patron housing available, Distribution center nearby</li>
+                <li>Endowment Schedule: Every 40 mins starting at 7:20 am till 8:00 pm</li>
+                <li>Closures: <span id="georgc"></span></li>
+            </ul>
+            <p></p>
+        </div>
+        <img class="pimg" src="images/landscape-01.jpg" alt="Preston">
+        <img class="simg" src="images/landscape-02.jpg" alt="Soda Springs">
+        <img class="fimg" src="images/landscape-03.jpg" alt="Fish Haven">
+        </div>
     </main>
     <footer>
         <p class="smaller">&copy; <span id="copyrightyear"></span> &#124; <span id="thedate"></span> &#124; Kyle A. Foutz &#124; <a href="../week-2/index.html">CIT-230 Assingments</a>
@@ -83,9 +110,7 @@
     </footer>
 <script src="script/currentdate.js"></script>
 <script src="script/hamburger.js"></script>
-<!--<script src="script/windchill.js"></script>-->
-<script src="script/weatherapiprest.js"></script>
-<script src="script/weatherapiweekpres.js"></script>
+<script src="script/weatherapitemples.js"></script>
 
 </body>
 
