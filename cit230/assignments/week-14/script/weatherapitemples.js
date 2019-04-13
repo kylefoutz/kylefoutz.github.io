@@ -21,17 +21,20 @@ var city = {
          document.getElementById(cityTemp).innerHTML = ctemp + '&deg;';
       }
 
-      var cityClosureURL = json / temple.json
+      var cityClosureURL = 'json/temple.json';
       var requestC = new XMLHttpRequest();
       requestC.open('GET', cityClosureURL);
       requestC.responseType = 'json';
       requestC.send();
 
-      requestF.onload = function () {
-         for (var i = 0; i < temple.length; i++) {
-            if (temple[i] === this.cityNum) {
-               for (var c = 0; c < temple.closeures.length; c++) {
-                  document.getElementById(this.cityClose).innerHTML += concat(temple[i].closeures[c].start + "-" + temple[i].closeures[c].end + ". ");
+      requestC.onload = function () {
+         var templeData = requestC.response;
+         console.log(templeData[0].temple[0]);
+
+         for (var j = 0; j < templeData[0].temple.length; j++) {
+            if (templeData[0].temple[j] === this.cityNum) {
+               for (var c = 0; c < templeData.temple.closeures[c].length; c++) {
+                  document.getElementById(this.cityClose).innerHTML += concat(templeData.temple[j].closeures[c].start.value + "-" + templeData.temple[j].closeures[c].end.date + ". ");
 
                }
             }
@@ -39,7 +42,6 @@ var city = {
       }
    }
 }
-
 
 
       var rexburg = {

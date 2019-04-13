@@ -1,6 +1,6 @@
 body{
-    color: #112f41;
-    background-color: #0da6a8;
+    color: black;
+    background-color: #def2f4;
 
 
 }
@@ -15,14 +15,14 @@ main h1{
 
 
 h1 {
-    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 50px;
     text-emphasis: bold;
 
 }
 
 .moto {
-    font-family: 'Lily Script One', cursive;
+   font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     text-emphasis: bold;
 }
@@ -36,14 +36,15 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #112f4185;
+    background-color: #C39556;
     color: white;
     padding-bottom: 0;
 }
 
 nav{
-    background-color: #f2b134;
+    background-color: #947241;
     font-size: 1.5em;
+
 }
 
 ul {
@@ -53,6 +54,7 @@ ul {
     padding-left: 0;
     margin-top:0;
     justify-content: space-evenly;
+    
 }
 
 li {
@@ -61,33 +63,34 @@ li {
 
 a{
     text-decoration: none;
-    color: #112f41;
+    color: white;
    
 }
 a:hover{
-    color: #ed553b;
-    border: double 4px #112f41;
+    color: black;
+    border: double 4px white;
 }
+
 .active{
     color: #ed553b;
-    border: double 4px #112f41;
+    border: double 4px white;
 }
 h2  {
     text-align: center;
-    text-emphasis: bold;
-    color: #ed553b;
-    font-size: 1.5em;
+    font-style: bold;
+    color: #947241;
+    font-size: 30px;
 }
 
 footer{
     text-align: center;
-    background-color: #ed553b;
+    background-color: #947241;
     margin:0;
     padding: 5px;
 }
 footer a:hover{
-   color: #f2b134;
-   border: double 4px #112f41;
+   color: black;
+   border: double 4px black;
 
 }
 
@@ -99,11 +102,11 @@ nav ul.hide{
 label{
     display: inline-block;
     text-align: left;
-    min-width: 150px;
-    padding-right: 5%;
-    font-size: 15px;
+    min-width: 200px;
+    padding-left: 25%;
+    font-size: 20px;
     text-emphasis: bold;
-    color: #112f41;
+    color: black;
 }
 
 input{ 
@@ -114,21 +117,23 @@ input{
 
 select{ 
     display: inline-block;
-    text-align: left;
+    text-align: center;
     margin: 25px;
 
-}
-
-#dangerLevel{
-    margin-right: 0;
 }
 
 #comments{
     text-align: justify;
 }
 .boxinfo{
-    text-align: center;
+    text-align: left;
     width: 100%;
+}
+
+#button{
+    text-align: right;
+    padding-right
+    : 20%;
 }
 
 @media only screen and (min-width: 600px){

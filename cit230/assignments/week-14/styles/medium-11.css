@@ -24,7 +24,9 @@
     .galleryimg{
         max-width: 100%;
         align-content: center;
-        width: 285px
+        width: 285px;
+        box-shadow: 10px 10px 10px;
+        margin-bottom: 25px;
     }
 }
 

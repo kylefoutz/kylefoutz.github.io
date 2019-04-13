@@ -35,39 +35,19 @@ h1 {
     text-emphasis: bold;
 }
 
-
-article img{
-    width: auto;
-     height: 320px;
-     border-radius: 10% 10% 5% 5%;
- }
-
- .weathergrid{
-    padding-left: 10px;
-    padding-right: 10px;
-
- }
-
- section img{
-    display: inline;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10% 10% 5% 5%;
- }
-
-
 .gallerycontainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 25px;
+
 }
 
 .galleryimg{
     max-width: 100%;
     align-content: center;
- 
-
+    box-shadow: 10px 10px 10px;
+    margin-bottom: 25px;
 }
 
  

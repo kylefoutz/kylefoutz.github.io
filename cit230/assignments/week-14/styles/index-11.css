@@ -1,6 +1,6 @@
 body{
-    color: #112f41;
-    background-color: #0da6a8;
+    color: black;
+    background-color: #def2f4;
 
 
 }
@@ -15,14 +15,14 @@ main h1{
 
 
 h1 {
-    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 50px;
     text-emphasis: bold;
 
 }
 
 .moto {
-    font-family: 'Lily Script One', cursive;
+   font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     text-emphasis: bold;
 }
@@ -36,14 +36,15 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #112f4185;
+    background-color: #C39556;
     color: white;
     padding-bottom: 0;
 }
 
 nav{
-    background-color: #f2b134;
+    background-color: #947241;
     font-size: 1.5em;
+
 }
 
 ul {
@@ -53,6 +54,7 @@ ul {
     padding-left: 0;
     margin-top:0;
     justify-content: space-evenly;
+    
 }
 
 li {
@@ -61,17 +63,17 @@ li {
 
 a{
     text-decoration: none;
-    color: #112f41;
+    color: white;
    
 }
 a:hover{
-    color: #ed553b;
-    border: double 4px #112f41;
+    color: black;
+    border: double 4px white;
 }
 
 .active{
     color: #ed553b;
-    border: double 4px #112f41;
+    border: double 4px white;
 }
 
 nav ul.hide{
@@ -82,14 +84,14 @@ nav ul.hide{
 h2 a  {
     text-align: center;
     font-style: bold;
-    color: #ed553b;
+    color: #947241;
     font-size: 30px;
 }
 
 main h3  {
     text-align: center;
     font-style: italic;
-    color: #112f41;
+    color: black;
     font-size: 1em;
 }
 
@@ -139,13 +141,13 @@ main img{
 
 footer{
     text-align: center;
-    background-color: #ed553b;
+    background-color: #947241;
     margin:0;
     padding: 5px;
 }
 footer a:hover{
-   color: #f2b134;
-   border: double 4px #112f41;
+   color: black;
+   border: double 4px white;
 
 }
 
